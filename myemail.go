@@ -8,9 +8,9 @@ import (
 func main() {
     msg := email.Message{
         To: "764976884@qq.com", // do not add < > or name in quotes
-        From: "quinnhahah@haha.fff", // do not add < > or name in quotes
+        From: "auto@yumn.tk", // do not add < > or name in quotes
         Subject: "测试测试",
-        Body: "域名是haha.fff",
+        Body: "测试yumn.tk",
     }
 
     err := msg.Send()
